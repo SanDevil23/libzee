@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    overflow:-moz-hidden-unscrollable;
+    padding: 5pt;
+}
+
+
+.Top {
+    background-color:rgb(248, 46, 86);
+    text-align: center;
+    padding: 10pt;
+    font-family: 'Magneto';
+    color:black;
+    font-size: 50pt;
+}
+
+.container-fluid {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.container {
+    padding-left: 9%;
+    text-align: center;
+}
+
+#alpha:hover {
+    background-color: rgb(133, 27, 62);
+    border-radius: 15px;
+}
+
+#beta:hover {
+    background-color: rgb(134, 0, 65);
+    border-radius: 15px;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x:hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ff006f;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor:grab;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  .main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    align-items:center;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
